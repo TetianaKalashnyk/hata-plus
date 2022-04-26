@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aic {
+    align-items: center;
+}
+
+.header {
+    padding: 15.5px 0;
+    background-color: #1f1f56;
+}
+
+.header ul {
+    margin: 0 -14px;
+    padding-left: 0;
+    list-style: none;
+}
+
+.header li {
+    display: inline-block;
+    margin: 0 14px;
+}
+
+.menu a {
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    color: #b1b1d2;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.menu a:hover {
+    color: #fd8300;
+}
+
+.logo {
+    padding: 29px 0;
+}
+
+.phones {
+    padding: 34px 0;
+    margin: 0;
+}
+
+.phones,
+.messengers {
+    list-style: none;
+}
+
+.phones a {
+    font: bold 18px/24px Arial;
+    color: #25252c;
+    text-decoration: none;
+}
+
+.messengers a {
+    font-size: 16px;
+    line-height: 24px;
+    color: #25252c;
+}
+
+.skype {
+    text-decoration: none;
+}
+
+.cta a {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #fd8300;
+    border-radius: 25px;
+    transition: all 0.2s ease;
+}
+
+.cta a:hover {
+    background-color: #fd8300;
+    color: #fff;
+}
+
+.proposition {
+    background: #060701 url(../img/background.jpg) center/cover;
+}
+
+.proposition p {
+    margin: 0;
+}
+
+.prop-title {
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 12px;
+    padding-top: 59px;
+}
+
+.prop-text {
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Arial";
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.prop-cost {
+    font-size: 24px;
+    color: #fd8300;
+    font-weight: bold;
+    font-family: "Arial";
+    text-align: center;
+    padding-bottom: 44px;
+}
+
+.prop-cost span {
+    font-size: 40px;
+}
